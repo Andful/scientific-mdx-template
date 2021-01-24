@@ -1,0 +1,9 @@
+@media page {
+  .chapter {
+    page-break-after: always;
+  }
+}
+
+@page {
+    size: A4;
+}

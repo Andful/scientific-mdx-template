@@ -1,0 +1,12 @@
+@media page {
+  .chapter {
+    page-break-after: always;
+  }
+}
+
+@page {
+  size: A4;
+  @bottom-center {
+    content: counter(page);
+  }
+}

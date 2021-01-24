@@ -1,0 +1,24 @@
+:root {
+  --color-mbox: rgba(0, 0, 0, 0.2);
+}
+
+@media screen {
+  body {
+    background-color: whitesmoke;
+  }
+
+  .pagedjs_page {
+    background-color: #fdfdfd;
+    margin: calc(var(--margin) * 2) var(--margin);
+    box-shadow: 0 0 0 1px var(--color-mbox);
+  }
+
+  .pagedjs_pages {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: calc(var(--pagedjs-width));
+    margin: 0;
+  }
+}
